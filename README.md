@@ -1,16 +1,18 @@
-Boosts the following websites:
+## Boosts the following websites:
+- signal.org
+- futo.org
+- proton.me
 - reddit.com
 - wikipedia.com
 - github.com
 - gitlab.com
 
-Downranks the following websites:
+## Downranks the following websites:
 - twitter.com
 - x.com
 - facebook.com
 
-Removes the following websites:
-
+## Removes the following websites:
 - quora.com
 - recoverit.wondershare.com
 - easeus.com
