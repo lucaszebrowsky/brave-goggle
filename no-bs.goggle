@@ -1,0 +1,12 @@
+! name: No BS
+! description: Filters out low-quality, AI-generated, and irrelevant search results from Brave
+! public: false
+! author: Lucas Zebrowsky
+
+
+$discard,site=quora.com
+$discard,site=recoverit.wondershare.com
+$discard,site=easeus.com
+$discard,site=partitionwizard.com
+$discard,site=wikihow.com
+
