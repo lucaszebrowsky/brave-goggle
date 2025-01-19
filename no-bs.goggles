@@ -2,11 +2,22 @@
 ! description: Filters out low-quality, AI-generated, and irrelevant search results from Brave
 ! public: false
 ! author: Lucas Zebrowsky
+! avatar: #ff00ff
+! issues: https://github.com/lucaszebrowsky/brave-goggle
 
+$boost,site=wikipedia.com
+$boost,site=reddit.com
+$boost,site=github.com
+$boost,site=gitlab.com
+
+$downrank,site=twitter.com
+$downrank,site=x.com
+$downrank,site=facebook.com
 
 $discard,site=quora.com
 $discard,site=recoverit.wondershare.com
 $discard,site=easeus.com
 $discard,site=partitionwizard.com
 $discard,site=wikihow.com
+$discard,site=answers.microsoft.com
 
