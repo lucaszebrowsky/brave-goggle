@@ -5,14 +5,6 @@
 ! avatar: #ff00ff
 ! issues: https://github.com/lucaszebrowsky/brave-goggle
 
-$boost,site=signal.org
-$boost,site=proton.me
-$boost,site=futo.org
-$boost,site=wikipedia.com
-$boost,site=reddit.com
-$boost,site=github.com
-$boost,site=gitlab.com
-
 $downrank,site=twitter.com
 $downrank,site=x.com
 $downrank,site=facebook.com
